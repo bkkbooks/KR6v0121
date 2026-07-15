@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0121/v1
 canonical_location: https://kanripo.org/bkk/KR6v0121/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 敦煌本《壇經》校釋疏義（第三章～第五章）
   source:
@@ -18,13 +18,13 @@ editions:
 - short: ZW
 assets:
   parts:
-  - {seq: 1, filename: KR6v0121_001.yaml, hash: 'sha256:c35c1c001b89ad27a83ee339129a05c03f2fd0472fbb5176b7b6c7684df27f2c'}
-  - {seq: 2, filename: KR6v0121_002.yaml, hash: 'sha256:f6c6313bd53d79284db48c860e7d50c9d7bedfc51f37fc22be2d149d596416f8'}
-  - {seq: 3, filename: KR6v0121_003.yaml, hash: 'sha256:36c57c0876228fdda2b29d3afc155a68e4d888437d32e8df92ff8fd5f3618481'}
+  - {seq: 1, filename: KR6v0121_001.yaml, hash: 'sha256:628002a0d4e07f2017b6dc753037419a2cd1d4648151d75081e6a92380fc939d'}
+  - {seq: 2, filename: KR6v0121_002.yaml, hash: 'sha256:f535ee460c8251466442d4b2a40c04f8dc0cd5106152785bde5b49120387bde4'}
+  - {seq: 3, filename: KR6v0121_003.yaml, hash: 'sha256:dad388d7c81d37875f67f6d707f38b9aa04da85af2a7e83fdbbf3da7533dcc2f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0121_001.markers.yaml, hash: 'sha256:9c92503cbe80c2b2a9044c1325fad717a2f7183354208467e9f4daedaee9810f'}
-  - {seq: 2, role: markers, filename: assets/KR6v0121_002.markers.yaml, hash: 'sha256:ca24fe9ae75d1356a3b271da0b1665f7f8fd460bc1639bf15c2c2951d2267141'}
-  - {seq: 3, role: markers, filename: assets/KR6v0121_003.markers.yaml, hash: 'sha256:e3f74d2c6a70b2907a83cc5220f6468438814623bafbd4b9f51a70d5b2bf699e'}
+  - {seq: 1, role: markers, filename: assets/KR6v0121_001.markers.yaml, hash: 'sha256:5c6f68aad25870f4417eaa6e03e2bd9476f60f9712f140badf63a0b86597dbe4'}
+  - {seq: 2, role: markers, filename: assets/KR6v0121_002.markers.yaml, hash: 'sha256:f606888a118a376c8f5960692cd96783029efe14836748612d51cc46102f1fb0'}
+  - {seq: 3, role: markers, filename: assets/KR6v0121_003.markers.yaml, hash: 'sha256:3b50dfa84e72084388d177dff0c7b86da6beebe5c579a19365e2cc8b9c2cef15'}
 table_of_contents:
 - ref:
     seq: 1
@@ -386,4 +386,7 @@ table_of_contents:
   label: 六、原始資料
   type: mulu
   level: 1
-hash: sha256:10970a00f53abfda927d6724f9b3cbe0f075855f0efca82bac82d117e4f66266
+hash: sha256:2ebe9afc151776b7b8473c5e118fa0135f473f7535457fb8d8a774a12000b383
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
